@@ -97,7 +97,7 @@ fun IMCScreen(modifier: Modifier = Modifier) {
             shape = RoundedCornerShape(8.dp),
             elevation = CardDefaults.cardElevation(8.dp)
         ) {
-        Column(modifier = Modifier.fillMaxWidth(),
+        Column(modifier = Modifier.fillMaxWidth().height(300.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.SpaceEvenly
             ){
